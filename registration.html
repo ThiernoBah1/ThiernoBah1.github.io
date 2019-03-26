@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Registration Form</title>
+</head>
+
+<body>
+<div class="topnav">
+	<p align="center"><a href="index.html">HOMEPAGE</a> | <a href="films.html">films</a> | <a href="books.html">Books</a>| <a href="musics.html">Music</a>| <a href="usefulllinks.html">UsefulLinks</a>| <a href="contactme.html">Contact Me</a>| <a href="registration.html">Register</a></p>
+</div>
+<br>
+<div align="center">
+<form method="post" id="myForm" action="action_page.php" onSubmit="alert('Thank you for your feedback.');" >
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name.."><br><br>
+	<label for="lname">Last Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name.."><br><br>
+	<label for="email">Email</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name.."><br><br>
+	<label for="date"> Date of Birth</label>
+	<input type="date" name="bday" max="1979-12-31"><br><br>
+	<label for="pwd"> Password</label>
+	<input type="password" name="pwd" maxlength="8"><br><br>
+    <label for="Tel"> Telephone</label>
+    <input type="text" id="lname" name="lastname" maxlength="11" placeholder="Your phone number.."><br><br>
+	<label for="lname"> Gender </label>
+	<select>
+		<option value="male">Male</option>
+		<option value="female">Female</option>
+	</select> <br><br>
+	<label for="lname">Department </label>
+	<select>
+		<option value="comp">Computer</option>
+		<option value="Ind">Industrial</option
+		<option value="Elect">Electric</option>
+		<option value="Civil">Civil Eng</option>
+	</select> <br><br>
+
+    <label for="subject">About me</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea><br><br>
+	<label for="lname">Mark Your Interest </label><br><br>
+	<input type="checkbox" name="vehicle" value="Bike"checked>  bike</li>
+	<input type="checkbox" name="vehicle" value="Gam" >Gaming</li><br>
+	<input type="checkbox" name="vehicle" value="anim"> Anime</li>
+	<input type="checkbox" name="vehicle" value="Com">Comedy</li><br><br>
+    <input type="submit" value="Submit">
+	<button type="reset" value="Reset">Reset</button>
+
+ </form>
+</div>
+</body>
+</html>
